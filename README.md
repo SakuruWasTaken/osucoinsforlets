@@ -1,6 +1,6 @@
 # osu!coins for LETS
 # How to use:
-First, put "coinsHandler.py" in your "Handlers" folder.
+First, put "coinsHandler.py" in your "handlers" folder.
 Next, add this line to the imports section of your lets.py
 ```from handlers import coinsHandler```
 
