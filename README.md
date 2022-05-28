@@ -2,9 +2,11 @@
 # How to use:
 First, put "coinsHandler.py" in your "handlers" folder.
 Next, add this line to the imports section of your lets.py
+
 ```from handlers import coinsHandler```
 
 then, add this to your tornado.web.Application section in lets.py
+
 ```(r"/web/coins.php", coinsHandler.handler),```
 
 then you can test functionality using the below client download, assuming your server is set up to allow clients of this age to function.
